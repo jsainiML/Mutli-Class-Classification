@@ -10,7 +10,7 @@ Project from 'PyTorch for Deep Learning' by Daniel Bourke
 ![image](https://github.com/jsainiML/Mutli-Class-Classification/assets/135480841/2b14ee39-f76b-48d2-9144-1c0633d26db1)
 
 ## Model's learning trend
-The fastest and accuraccy with steep loss was seen with 'Adam' optimizer. SGD was able to produce similar results but on much higher epoch run. 
+The fastest accuraccy with steep loss was seen with 'Adam' optimizer. SGD was able to produce similar results but on much higher epoch run. 
 
 ![image](https://github.com/jsainiML/Mutli-Class-Classification/assets/135480841/249d2d99-e309-44a0-86c6-6b50b8857236)
 
