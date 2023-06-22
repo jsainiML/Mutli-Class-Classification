@@ -29,4 +29,6 @@ The fastest accuraccy with steep loss was seen with 'Adam' optimizer. SGD was ab
 
 
 
+After training the model best accuracy rate achieved was 95%. Attempted different appraoach like adding/removing hidden layers and hiden nodes, ran on different opitmizers with/without momentum. 
+Appears the 5% loss is on the 2 clusters which are really close togther (Yellow/Light blue) as seen in above image. 
 
