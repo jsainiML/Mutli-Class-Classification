@@ -31,4 +31,4 @@ for epoch in range(epochs):
     loss_test = lossfn(result_logit, yb_test)
 
     if epoch % 30 == 0:
-      print (f"Epoch:{epoch} | Train loss: {loss_train} | Acc: {acc:.2f} | Test loss {loss_test} | Test Acc: {res_acc}")
+      print (f"Epoch:{epoch} | Train loss: {loss_train} | Acc: {acc} | Test loss {loss_test} | Test Acc: {res_acc}")
