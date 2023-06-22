@@ -1,12 +1,12 @@
-# Creating multi-class data
+# Creating multi-class data with 6 different cluster points with less than moderate deviation from each other
+
 X_blob, y_blob = make_blobs(n_samples=1200,n_features=2, centers= 6, cluster_std= 1,random_state= 62)
 # Numpy -> tensor
 X_blob = torch.from_numpy(X_blob).type(torch.float)
 y_blob = torch.from_numpy(y_blob).type(torch.LongTensor)
 
 # Split Train/Test
-
 Xb_train, Xb_test, yb_train, yb_test = train_test_split(X_blob, y_blob, test_size = 0.2,random_state=62)
 
-
+# A quick verification split values
 len(X_blob), len(y_blob),  len(Xb_train), len(Xb_test), len(yb_train), len(yb_test)
