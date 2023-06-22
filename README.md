@@ -28,4 +28,5 @@ The fastest and accuraccy with steep loss was seen with 'Adam' optimizer. SGD wa
 ![image](https://github.com/jsainiML/Mutli-Class-Classification/assets/135480841/6d3a9bd0-4790-4405-b1b4-7439955d1ac3)
 
 
-     
+
+
